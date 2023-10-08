@@ -1,0 +1,17 @@
+{
+  "name": "bulk-data-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.5.1",
+    "mongodb": "^6.0.0",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
+  }
+}
