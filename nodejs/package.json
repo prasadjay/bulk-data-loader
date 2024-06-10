@@ -2,16 +2,24 @@
   "name": "bulk-data-loader",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
+    "build": "babel ./src --out-dir dist",
+    "start": "npm run build && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.19.2",
     "knex": "^2.5.1",
     "mongodb": "^6.0.0",
     "pg": "^8.11.3",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
   }
 }

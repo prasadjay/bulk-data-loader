@@ -39,5 +39,8 @@ function getUuid(){
     return uuidv4();
 }
 
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
 module.exports.getBatchSet = getBatchSet;
 module.exports.getTimeDiff = getTimeDiff;
+module.exports.sleep = sleep;
