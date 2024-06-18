@@ -1,4 +1,4 @@
-import {insertMultipleUser} from './insert_multiple_users'
+import {insertSingleUser, insertMultipleUser} from './insert_users'
 
 const express = require('express')
 const app = express()
